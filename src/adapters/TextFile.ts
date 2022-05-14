@@ -1,7 +1,7 @@
 import fs from 'fs'
-import { Writer } from 'steno'
 
 import { Adapter } from '../Low.js'
+import { Writer } from '../steno'
 
 export class TextFile implements Adapter<string> {
   #filename: string

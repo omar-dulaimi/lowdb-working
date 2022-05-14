@@ -1,6 +1,18 @@
 {
-  "extends": "@sindresorhus/tsconfig",
   "compilerOptions": {
-    "outDir": "./lib"
-  }
+    "outDir": "./lib",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2019",
+    "lib": ["es2019"],
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "declaration": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+  },
+  "exclude": ["src/steno"]
 }
