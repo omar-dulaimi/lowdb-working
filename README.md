@@ -21,25 +21,6 @@ db.write()
 }
 ```
 
-If you like lowdb, see also [xv](https://github.com/typicode/xv) (test runner) and [steno](https://github.com/typicode/steno) (fast file writer).
-
-## Sponsors
-
-<br>
-<br>
-
-<p align="center">
-  <a href="https://mockend.com/" target="_blank">
-    <img src="https://jsonplaceholder.typicode.com/mockend.svg" height="70px">
-  </a>
-</p>
-
-<br>
-<br>
-
-[Become a sponsor and have your company logo here](https://github.com/sponsors/typicode).
-
-Please help me build OSS 👉 [GitHub Sponsors](https://github.com/sponsors/typicode)
 
 ## Features
 
@@ -59,8 +40,6 @@ npm install lowdb
 ```
 
 ## Usage
-
-_Lowdb 3 is a pure ESM package. If you're having trouble importing it in your project, please [read this](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c)._
 
 ```js
 import { join, dirname } from 'path'
